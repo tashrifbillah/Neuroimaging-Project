@@ -46,13 +46,14 @@ def plotting(img):
     ref= np.max(cdata)/3
     cdata[cdata<ref]= 0
 
-    ax0= cdata[int(f/2)-1,0:m,0:n]
+    # m, n, f = np.shape(img.dataobj)
+    ax0= cdata[int(m/2)-1,0:n,0:f]
     show(ax0, 'X axis middle slice')
 
-    ax1= cdata[0:f,int(m/2)-1,0:n]
+    ax1= cdata[0:m,int(n/2)-1,0:f]
     show(ax1, 'Y axis middle slice')
 
-    ax2= cdata[0:f,0:n,int(n/2)-1]
+    ax2= cdata[0:m,0:n,int(f/2)-1]
     show(ax2, 'Z axis middle slice')
 
 
