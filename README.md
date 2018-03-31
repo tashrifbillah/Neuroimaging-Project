@@ -20,13 +20,17 @@ In the load_file(section) function, the root name has to be changed according to
 
 3. Open command prompt
 
-4. cd to C:\Users\Tashrif Billah\Downloads\mricron
+4. cd to \mricron folder
 
-5. Call "python part_3.py CT-Thorax-Abdomen" on the command line
+5. Call "python part_3.py CT-Thorax-Abdomen" on the command line. The folder here contains all the dicom images to be converted.
 
 # Part 3, step 2:
 
  From step 1, a .nii.gz file is created inside the specified source directory. Put the path to that file as the argument of nib.load( ).
+ 
+ # Part 4:
+ 
+ This repository creation is the last part.
 
 
 
