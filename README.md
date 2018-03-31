@@ -22,7 +22,7 @@ In the load_file(section) function, the root name has to be changed according to
 
 4. cd to \mricron folder
 
-5. Call "python part_3.py CT-Thorax-Abdomen" on the command line. The folder here contains all the dicom images to be converted.
+5. Call "python part_3.py CT-Thorax-Abdomen" on the command line. The CT-Thorax-Abdomen folder contains all the dicom images to be converted.
 
 # Part 3, step 2:
 
@@ -31,6 +31,11 @@ In the load_file(section) function, the root name has to be changed according to
  # Part 4:
  
  This repository creation is the last part.
+ 
+ 
+ Thanks,
+ Tashrif Billah, MS
+ Columbia University, New York
 
 
 
